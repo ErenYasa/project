@@ -1,0 +1,56 @@
+// NAVBAR
+.custom-navbar-nav {
+
+  @include mq("large") {
+    height: 60px;
+    border-top: initial;
+  }
+}
+
+.custom-nav-item {
+  padding: 8.5px 15px;
+  border-bottom: 1px solid #ced4da;
+
+  &:not(.custom-order-mobile):hover {
+    background-color: $color-black;
+  }
+
+  @include mq("large") {
+    padding: 20px 12px;
+    border-bottom: initial;
+
+    &:hover {
+      background-color: $color-black;
+    }
+  }
+}
+
+.custom-nav-item:hover .custom-nav-link {
+  color: $color-white !important;
+}
+
+.custom-nav-item:hover .icon-magnifier {
+  fill: $color-white;
+  
+}
+
+.custom-logo-mobile {
+  margin-left: -0.13rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+
+  @include mq("large") {
+      padding: initial;
+      margin-left: -0.10rem;
+  }
+}
+
+.custom-navbar-toggler {
+  margin-right: -0.13rem;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.custom-navbar-toggler:focus {
+    box-shadow: initial;
+}

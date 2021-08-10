@@ -1,0 +1,20 @@
+.custom-carousel-img-1 {
+    background-image: url("https://via.placeholder.com/1400x595?text=1");
+    @include carousel-img;
+}
+
+.custom-carousel-img-2 {
+    background-image: url("https://via.placeholder.com/1400x595?text=2");
+    @include carousel-img;
+}
+
+.custom-carousel-img-3 {
+    background-image: url("https://via.placeholder.com/1400x595?text=3");
+    @include carousel-img;
+}
+
+.custom-carousel-icon {
+    width: 70px;
+    height: 70px;
+    padding: 20px;
+}
