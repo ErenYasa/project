@@ -1,0 +1,30 @@
+// SEARCH
+.custom-search-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    transition: all .3s;
+
+    &:focus {
+        box-shadow: none !important;
+    }
+
+    &:hover {
+        z-index: 1;
+        color: #495057;
+        text-decoration: none;
+        background-color: #ececec;
+    }
+}
+
+// FOOTER
+.custom-footer-btn {
+    @extend .custom-search-btn;
+    width: 100%;
+    border-radius: 0;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    font-weight: 900;
+
+}

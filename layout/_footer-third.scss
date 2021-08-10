@@ -1,0 +1,15 @@
+.footer-third {
+    background-color: $color-black;
+}
+
+.custom-f-third-text {
+    color: $color-white;
+    opacity: .4;
+    text-decoration: none;
+
+    &:hover {
+        color: $color-white;
+        opacity: .8;
+    }
+    
+}
